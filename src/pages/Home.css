@@ -1,0 +1,25 @@
+.Hero-Section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+  }
+  
+  .HeroImg {
+    background-image: url('../assets/Bondbarrel.jpeg');
+    background-size: cover;
+    background-position: center center;
+    width: 100%; /* Ensures the background image fills the container */
+    height: 100%; /* Ensures the background image fills the container */
+  }
+  .welcomeBox {
+    display: flex;
+    position: relative;
+    background-color: white;
+    border-radius: 8px;
+    padding: 50px;
+    margin: 20px; /* Adjust as needed */
+    top: 50%;
+    left: 50%;
+    width: 300px;
+  }
