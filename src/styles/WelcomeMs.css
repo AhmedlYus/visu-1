@@ -1,0 +1,25 @@
+
+.bigger {
+    font-size: 24px;
+    align-items: center;
+    color: black;
+  }
+  
+  .rest {
+    font-size: 18px;
+    color: black;
+  }
+  .welcome-box.hovered .bigger,
+.welcome-box.hovered .rest {
+  color: white; /* Change color on hover */
+}
+
+@media screen and (max-width: 768px) {
+    .bigger {
+      font-size: 15px; /* Adjust font size for smaller screens */
+    }
+  
+    .rest {
+      font-size: 8px; /* Adjust font size for smaller screens */
+    }
+  }

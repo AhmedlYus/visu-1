@@ -1,0 +1,163 @@
+.Hero-Section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 90vh;
+  }
+  
+  .HeroImg {
+    background-image: url('../assets/Bondbarrel.jpeg');
+    background-size: cover;
+    background-position: center center;
+    width: 100%; 
+    height: 100%; 
+  }
+  .welcomeBox {
+    display: flex;
+    position: relative;
+    background-color: white;
+    border-radius: 8px;
+    padding: 1%;
+    margin: 1%;
+    top: 60%;
+    left: 5%;
+    width: 20%;
+    height: 30%;
+    transition: all 0.3s ease;
+    overflow: hidden;
+    box-sizing: border-box;
+  }
+  
+  .welcomeButton {
+    background: #222831;
+    color: white;
+    padding: 8px 16px; 
+    text-align: center;
+    text-decoration: none;
+    width: 200px;
+    height: 50px;
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.welcomeBox:hover {
+    background: #222831;
+    transform: scale(1.1); /* Scale the box on hover */
+}
+
+.welcomeBox:hover .welcomeButton {
+    background: white !important;
+    color: black;
+}
+
+
+
+span.bigger {
+  font-size: 24px;
+  align-items: center;
+  color: black;
+}
+
+span.rest {
+  font-size: 18px;
+  color: black;
+}
+.welcome-box:hover .bigger,
+.welcome-box.hovered .rest {
+  color: white; 
+}
+.welcome-box:hover .rest {
+  color: white; 
+}
+
+@media screen and (max-width: 768px) {
+  span.bigger {
+    font-size: 15px;
+  }
+
+  .rest {
+    font-size: 8px; 
+  }
+}
+
+.mainSection {
+  margin: 0 5%;
+}
+
+.splitContainer {
+  display: grid;
+  grid-template-columns: auto 1fr; 
+  gap: 100px;
+}
+
+.leftSide {
+  grid-column: 1 / span 1; 
+}
+
+.rightSide {
+  justify-self: end;
+  margin-right: 10%;
+}
+
+.ExhibitionsHeader{
+  margin-left: 10%;
+  color: white;
+}
+
+
+.twoContainer{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 5%;
+}
+
+
+.NoTimeTo,
+.Spectre {
+  display: flex;
+  align-items: center;
+  background-color: #ccc; 
+  padding: 0%; 
+  height: 500px; 
+  width: 860px; 
+}
+
+.imageContainer {
+  width: 80%; 
+  height: 100%; 
+  background-color: white; 
+  margin-left: 50%;
+  margin-top: 0;
+  margin-bottom: 0%; 
+  margin-right: 0;
+  padding: auto;
+}
+
+.text-content {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start; 
+}
+
+.text-content h1,
+.text-content h3,
+.text-content h5,
+.text-content p {
+  margin: 20%; 
+}
+.leftSide h1,
+.leftSide h3,
+.leftSide h5,
+.leftSide p,
+.rightSide h1,
+.rightSide h3,
+.rightSide h5,
+.rightSide p {
+  color: white;
+}
+Wrapper {
+  width: 100%;
+  border-bottom: 4px solid white; 
+}
