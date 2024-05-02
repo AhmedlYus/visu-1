@@ -1,45 +1,37 @@
 .mainSection {
-  display: flex;
+  display: grid;
   justify-content: center;
   align-items: flex-start;
-}
-
-.leftSide {
-  flex: 1;
-  padding: 20px;
-}
-
-.rightSide {
-  flex: 1;
-  padding: 20px;
-}
-
-.splitContainer {
-  display: flex;
-  justify-content: space-between;
-  flex-direction: row; /* Added to make the items appear beside each other */
-}
-
-.leftSide > div {
-  margin-bottom: 20px;
-}
-
-.rightSide > div {
-  margin-bottom: 20px;
-}
-
-.leftSide h1,
-.leftSide h3,
-.leftSide h5,
-.leftSide p,
-.rightSide h1,
-.rightSide h3,
-.rightSide h5,
-.rightSide p {
   color: white;
 }
+.start-info {
+  display: flex;
+  grid-template-columns: 1fr 1fr;
+  gap: 20%;
+  margin-bottom: 5%;
+}
+.discover, .open-info {
+  padding: 20px; /* Add padding for spacing */
+   /* Background color for each section */
+}
+.discover{
+  margin-left: -1%;
+}
 
-.Wrapper {
-  width: 100%;
-  border-bottom: 4px solid white; 
+.open-info{
+  display: inline-block;
+  margin-left: 20%;
+}
+.section-line{
+  border-bottom: 2px solid white;
+  margin-bottom: 5%;
+}
+
+.exhi-header{
+  text-align: left;
+  margin-bottom: 5%;
+}
+.visit-header{
+  text-align: left;
+  margin-bottom: 5%;
 }

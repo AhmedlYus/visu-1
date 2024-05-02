@@ -3,6 +3,7 @@
     grid-template-columns: repeat(2, 1fr);
     grid-gap: 5%;
     position: relative;
+    margin-bottom: 5%;
   }
   
   .BannerItem {
@@ -88,7 +89,7 @@
   .circularButton2{
     position: absolute;
     top: 75%;
-    left: 50%;
+    left: 30%;
     width: 20%;
     height: 20%;
     border-radius: 50%;
