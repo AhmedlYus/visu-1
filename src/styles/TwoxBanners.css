@@ -1,0 +1,151 @@
+.bannerContainer {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 5%;
+    position: relative;
+  }
+  
+  .BannerItem {
+    display: flex;
+    align-items: center;
+    background-color: #404040;
+    padding: 0%;
+    height: 50vh;
+    width: 80vh;
+    position: relative;
+  }
+  
+  .BannerItem2 {
+    display: flex;
+    align-items: center;
+    background-color: #404040;
+    padding: 0%;
+    height: 50vh;
+    width: 80vh;
+    position: relative;
+  }
+  
+  .bannerImage {
+    width: 70%;
+    height: 100%;
+    object-fit: contain;
+    margin-right: 0%;
+    margin-top: 0;
+    margin-bottom: 0%;
+    margin-right: 0;
+    padding: auto;
+  }
+  
+  .bannerContent,
+  .bannerContent2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 100%;
+    flex-grow: 1;
+  }
+  
+  .bannerContent h1,
+  .bannerContent2 h1 {
+    position: absolute;
+    margin-top: -10%;
+    left: 3%;
+  }
+  
+  .bannerContent h3,
+  .bannerContent2 h3 {
+    position: absolute;
+    margin-top: -5%;
+    left: 3%;
+  }
+  
+  .bannerContent h5,
+  .bannerContent2 h5 {
+    position: absolute;
+    margin-top: 8%;
+    left: 3%;
+  }
+  
+  .bannerContent p,
+  .bannerContent2 p {
+    position: absolute;
+    margin-top: 10%;
+    left: 3%;
+  }
+  
+  .circularButton{
+    position: absolute;
+    top: 75%;
+    right: 50%;
+    width: 20%;
+    height: 20%;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white; /* Text color */
+  }
+  .circularButton2{
+    position: absolute;
+    top: 75%;
+    left: 50%;
+    width: 20%;
+    height: 20%;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white; /* Text color */
+  }
+
+
+  @media screen and (max-width: 768px) {
+    .bannerContainer {
+      grid-template-columns: 1fr; /* Change to a single column layout */
+    }
+  
+    .BannerItem,
+    .BannerItem2 {
+      width: auto; /* Adjust width to fit the screen */
+      height: 60vh; /* Increase the height of the banners */
+    }
+  
+    .bannerContent h1,
+    .bannerContent2 h1 {
+      position: absolute;
+      margin-top: -10%;
+      left: 3%;
+    }
+  
+    .bannerContent h3,
+    .bannerContent2 h3 {
+      position: absolute;
+      margin-top: -5%;
+      left: 3%;
+    }
+  
+    .bannerContent h5,
+    .bannerContent2 h5 {
+      position: absolute;
+      margin-top: 8%;
+      left: 3%;
+    }
+  
+    .bannerContent p,
+    .bannerContent2 p {
+      position: absolute;
+      margin-top: 10%;
+      left: 3%;
+    }
+  
+    .bannerContent2 h1 {
+      right: 50%; 
+    }
+  
+    .BannerItem2 img,
+    .BannerItem img {
+      position: relative;
+      margin-top: 10px; 
+    }
+  }
+  
