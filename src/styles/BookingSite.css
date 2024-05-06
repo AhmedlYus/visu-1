@@ -1,42 +1,40 @@
-.formx {
-    background-color: aliceblue;
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
-    max-width: 400px;
-    margin: 0 auto;
-  }
-  
-  .input-with-icons {
-    display: flex;
-    align-items: center;
-    gap: 10px;
-  }
-  
-  .input-with-icons > .MuiFormControl-root {
-    flex: 1;
-  }
-  
-  .input-with-icons > .MuiIconButton-root {
-    background-color: transparent;
-  }
-  
-  .adults-children-date {
-    display: flex;
-    gap: 20px;
-    align-items: center;
-  }
-  
-  .adults-children-date .MuiTextField-root {
-    width: 100px; /* Adjust the width as needed */
-  }
-  
-  .name-email {
-    display: flex;
-    gap: 20px;
-    align-items: center;
-  }
-  
-  .name-email .MuiTextField-root {
-    flex: 1; /* Take up remaining space */
-  }
+.form-container {
+  background-color: white;
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.form-container div {
+  margin-bottom: 15px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+input[type="number"],
+input[type="email"],
+input[type="tel"],
+input[type="date"] {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
