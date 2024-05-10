@@ -1,41 +1,65 @@
 .footer {
-    background-color: blue;
+    background-color: black;
     color: #fff;
-    padding: 20px;
-    height: 15%; /* Adjust the height as needed */
-}
-
-.Logo-main {
+    width: 100%;
+    height: 100px;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
-}
-
-.logo-footer {
+  }
+  
+  .Logo-main {
     display: flex;
     align-items: center;
-}
-
-.logo-footer img {
-    width: 50px; /* Adjust the width as needed */
+    left: 10%;
+  }
+  
+  .logo-footer {
+    display: flex;
+    flex-direction: column; /* Display logo and text vertically */
+    align-items: center; /* Center logo and text horizontally */
+  }
+  
+  .logo-footer img {
+    width: 90px; /* Adjust the width as needed */
     height: 50px; /* Adjust the height as needed */
-}
-
-.logoText-footer {
+  }
+  
+  .logoText-footer {
     font-size: 20px;
-    margin-left: 10px;
-}
-
-.links-to a {
+    margin-top: 5px; /* Add some spacing between logo and text */
+  }
+  
+  .links-socials {
+    display: flex;
+    align-items: center;
+    justify-content: center; /* Center horizontally */
+  }
+  
+  .links-to {
+    flex: 1; /* Links take up remaining space */
+    display: flex;
+    justify-content: center; /* Center links horizontally */
+  }
+  
+  .TwoAM {
+    font-size: 10px; /* Reduce font size for attribution */
+    text-align: center; /* Center text */
+    margin-top: 5px; /* Add spacing between links and text */
+  }
+  
+  .socials {
+    display: flex;
+    align-items: center;
+  }
+  
+  .socials > * {
+    margin-left: 10px; /* Add some spacing between social icons */
+  }
+  
+  .links-to a {
     color: #fff;
     text-decoration: none;
-    margin-right: 10px;
-}
-
-.socials {
-    display: flex;
-}
-
-.socials > * {
-    margin-left: 10px;
-}
+    margin: 0 10px; /* Add some spacing between links */
+  }
+  

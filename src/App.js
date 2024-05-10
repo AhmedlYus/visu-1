@@ -10,6 +10,7 @@ import BookingTickets from './pages/BookingTickets';
 import BookingRental from './pages/BookingRental';
 import Contact from './pages/Contact';
 import About from './pages/About';
+import Footer from './components/Footer';
 
 function App() {
   return (
@@ -20,13 +21,13 @@ function App() {
           <Route exact path="/" element={<Home />} />
           <Route path="/exhibitions" element={<Exhibitions />} />
           <Route path="/exhibitions/notime" element={<ExhibitionsNotime />} />
-          <Route path="/booking" element={<Booking />}>
-            <Route path="tickets" element={<BookingTickets />} />
-            <Route path="rental" element={<BookingRental />} />
-          </Route>
+          <Route path="/booking" element={<Booking />}/ >
+          <Route path="/booking/tickets" element={<BookingTickets />} />
+            <Route path="/booking/rental" element={<BookingRental />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="/about" element={<About />} />
         </Routes>
+        <Footer />
       </Router>
     </div>
   );

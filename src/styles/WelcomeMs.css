@@ -1,18 +1,9 @@
 
 .bigger {
-    font-size: 24px;
+    font-size: 38px;
     align-items: center;
     color: black;
   }
-  
-  .rest {
-    font-size: 18px;
-    color: black;
-  }
-  .welcome-box.hovered .bigger,
-.welcome-box.hovered .rest {
-  color: white; /* Change color on hover */
-}
 
 @media screen and (max-width: 768px) {
     .bigger {

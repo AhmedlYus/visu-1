@@ -1,0 +1,49 @@
+.utstilling-container {
+    display: flex;
+    align-items: center;
+    margin: 5%;
+  }
+  
+  .utstilling-img {
+    flex: 2; 
+    margin-right: 20px;
+  }
+  
+  .utstilling-img img {
+    width: 100%;
+    max-width: 100%; 
+    height: auto;
+  }
+  
+  .text-container {
+    flex: 1; 
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-left: 1%;
+  }
+  
+  .heading-text {
+    margin-top: 0;
+  }
+  
+  .text-container p {
+    margin-bottom: 10px;
+  }
+  
+  .button {
+    color: white;
+    background-color: #1abc9c;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: ease-in-out 0.5s;
+    align-items: end;
+  }
+  
+  .button:hover {
+    background-color: #16a085;
+    transform: scale(1.05);
+  }
+  

@@ -5,7 +5,7 @@ import spectreBond from '../assets/spectreBond.jpg';
 import VisitCards from '../components/VisitCards';
 import AstonMartin2 from '../assets/astonMartin2.jpg';
 import Lotus from '../assets/Lotus.jpeg';
-import Bar007 from '../assets/bollingerbar1.jpg';
+import jaguar from '../assets/JaguarEtype.jpg';
 import MuseumMap from '../assets/007musem-map.jpg';
 import tiger900 from '../assets/tiger900.jpg';
 import triumph from '../assets/triumph.jpg';
@@ -17,7 +17,7 @@ const Exhibitions = () => {
       title: "No time to die",
       text: "Bonds final mission",
       exhibitionArea: "Area 5",
-      bookNowLink: "#",
+      bookNowLink: "/exhibitions/notime",
       image: noTimeBond,
       backgroundColor: "#088F8F",
     },
@@ -32,24 +32,21 @@ const Exhibitions = () => {
   ];
   const museumCards = [
     {
-      image: Bar007,
+      image: jaguar,
       title: "Jaguar E-Type",
       description: "Experience the Legendary E-Type from Casino Royale 1967 amongst our exhibiton",
-      bookNowLink: '#',
     },
     {
       image: Lotus,
       title: "Lotus Espirit",
       description:
         "From the movie Your Eyes Only 1981, see tha car on display.",
-      bookNowLink: '#',
     },
     {
       image: AstonMartin2,
       title: "Rent Aston Martin",
       description:
         "The sleek Aston Martin Vantage from Casino Royale 2008 showcased and available for rent.",
-        bookNowLink: '#',
     },
   ];
   const museumCards2 = [
@@ -57,21 +54,19 @@ const Exhibitions = () => {
       image: tiger900,
       title: "Tiger 900",
       description: "Motorcycle from No time To Die (2021)",
-      bookNowLink: '#',
     },
     {
       image: bmw,
       title: "BMW R 1200",
       description:
         "Set bike from Tomorrow Never Dies (1997)",
-      bookNowLink: '#',
     },
     {
       image: triumph,
       title: "Triump Speed - Special Edition",
       description:
         "Special Edition bike engraved with all 25 Bond movies",
-        bookNowLink: '#',
+        bookNowLink: '',
     },
   ];
   return(

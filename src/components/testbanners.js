@@ -25,12 +25,8 @@ const MovieCard = ({ title, text, exhibitionArea, bookNowLink, image, background
             <h2 className="movie-title">{title}</h2>
             <p className="text">{text}</p>
             <div className="text-container">
-              <div className="text-details">
-                <div className="text-label">Exhibition</div>
-                <div className="text-area">{exhibitionArea}</div>
-              </div>
               <div className="circle-link">
-              <div className="book-now-link">Book now</div>
+              <div className="book-now-link"></div>
               </div>
             </div>
           </div>
@@ -38,6 +34,10 @@ const MovieCard = ({ title, text, exhibitionArea, bookNowLink, image, background
         <div className="movie-img-container">
           <img src={image} alt={title} className="movie-img" />
         </div>
+      </div>
+      <div className="Poster-text">
+        <h1></h1>
+        <p></p>
       </div>
     </a>
   );

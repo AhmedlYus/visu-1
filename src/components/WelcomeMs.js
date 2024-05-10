@@ -8,7 +8,7 @@ function WelcomeMs() {
 
   useEffect(() => {
     const arrText = [
-      "<span class='bigger'>Welcome to the 007 Museum </span><br/><br/> <span class='rest'>Agent 007 has chosen you to accompany him on a top secret mission, do you accept?</span>"
+      "<span class='bigger'>Step into the world of espionage with James Bond </span"
     ];
     const speed = 60;
     let index = 0;

@@ -3,7 +3,8 @@ import Formcomp from '../components/Formcomp';
 import CardBanners from '../components/testbanners';
 import noTimeBond from '../assets/NotimeBond.jpg';
 import spectreBond from '../assets/spectreBond.jpg';
-import Footer from '../components/Footer';
+import astonLogo from '../assets/astonMartin logo.jpeg';
+import logoAston from '../assets/AstonmartinLogo.jpg';
 
 function Booking() {
   const cards = [
@@ -11,7 +12,7 @@ function Booking() {
       title: "Tickets",
       text: "Book museum tickets",
       exhibitionArea: "",
-      bookNowLink: "/tickets",
+      bookNowLink: "/booking/tickets",
       image: noTimeBond,
       backgroundColor: "#088F8F",
     },
@@ -20,7 +21,7 @@ function Booking() {
       text: "The infamous Aston Martin ",
       exhibitionArea: "", 
       bookNowLink: "#",
-      image: spectreBond,
+      image: logoAston,
       backgroundColor: "#002c3d",
     }
   ];
@@ -35,7 +36,6 @@ function Booking() {
         <div className='section-line'>
         </div>
       </div>
-      <Footer />
     </div>
 
   );
