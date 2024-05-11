@@ -4,38 +4,37 @@
   align-items: flex-start;
   color: white;
 }
+
 .start-info {
-  display: flex;
+  display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 20%;
   margin-bottom: 5%;
 }
-.discover, .open-info {
-  padding: 20px; /* Add padding for spacing */
-   /* Background color for each section */
-}
-.discover{
-  margin-left: -1%;
-}
 
-.open-info{
-  display: inline-block;
-  margin-left: 20%;
-}
-.section-line{
-  border-bottom: 2px solid white;
-  margin-bottom: 5%;
-}
-.section-line2{
+.section-line {
   border-bottom: 2px solid white;
   margin-bottom: 5%;
 }
 
-.exhi-header{
+.section-line2 {
+  border-bottom: 2px solid white;
+  margin-bottom: 5%;
+}
+
+.exhi-header, .visit-header {
   text-align: left;
   margin-bottom: 5%;
 }
-.visit-header{
-  text-align: left;
-  margin-bottom: 5%;
+.grid-container {
+  display: flex;
+  flex-direction: row;
+}
+
+.card-banner {
+  flex: 1;
+}
+
+.text {
+  flex: 1;
 }

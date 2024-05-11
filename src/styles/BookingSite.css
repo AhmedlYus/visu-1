@@ -1,14 +1,21 @@
 .form-container {
   background-color: white;
-  max-width: 400px;
+  max-width: 40%;
   margin: 0 auto;
   padding: 20px;
   border: 1px solid #ccc;
   border-radius: 5px;
 }
 
-.form-container div {
+.form-row {
+  display: flex;
+  justify-content: space-between;
   margin-bottom: 15px;
+  gap: 5%;
+}
+
+.form-group {
+  flex: 0 0 48%; /* Adjust the width as needed */
 }
 
 label {
@@ -18,6 +25,7 @@ label {
 
 input[type="number"],
 input[type="email"],
+input[type="name"],
 input[type="tel"],
 input[type="date"] {
   width: 100%;
@@ -37,4 +45,19 @@ button {
 
 button:hover {
   background-color: #0056b3;
+}
+
+.small-input {
+  width: calc(50% - 5px);
+  display: inline-block; /* Ensure inputs are displayed inline */
+  margin-right: 10px; /* Add space between inputs */
+}
+
+.prices-text {
+  position: relative;
+  top: 0;
+  left: 0;
+  margin: 20px; /* Add some margin for spacing */
+  font-size: 18px;
+  color: black; /* Adjust color as needed */
 }

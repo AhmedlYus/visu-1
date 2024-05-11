@@ -22,9 +22,6 @@ function Footer() {
     <a href="/contact">Contact</a>
     <a href="/about">About</a>
   </div>
-  <div className='TwoAM'>
-    <p>High fidelity exam portfolio-2 ADTE3200 by 2AM</p>
-  </div>
   <div className='socials'>
     <InstagramIcon />
     <FacebookIcon />

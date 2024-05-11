@@ -1,9 +1,6 @@
 import React from 'react'
-import Formcomp from '../components/Formcomp';
 import CardBanners from '../components/testbanners';
 import noTimeBond from '../assets/NotimeBond.jpg';
-import spectreBond from '../assets/spectreBond.jpg';
-import astonLogo from '../assets/astonMartin logo.jpeg';
 import logoAston from '../assets/AstonmartinLogo.jpg';
 
 function Booking() {
@@ -20,7 +17,7 @@ function Booking() {
       title: "Rent Aston Martin",
       text: "The infamous Aston Martin ",
       exhibitionArea: "", 
-      bookNowLink: "#",
+      bookNowLink: "/booking/rental",
       image: logoAston,
       backgroundColor: "#002c3d",
     }

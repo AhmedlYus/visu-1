@@ -24,6 +24,7 @@ function About() {
           for everyone to enjoy in our museum.
         </p>
         <h5>Visit us on EmmaBodavagen 20, 382 45 Nybro. Sweden</h5>
+        <div className='fillerr'></div>
       </div>
     </div>
   )

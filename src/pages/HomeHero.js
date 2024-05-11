@@ -8,7 +8,7 @@ const HeroSection = () => {
     <div className='Hero-Section'>
       <div className='welcomeBox'>
         <WelcomeMs />
-        <button className='welcomeButton'>Visit here</button>
+        <button className='welcomeButton'>Book your tickets here</button>
       </div>
       <video className='HeroVideo' autoPlay loop muted>
         <source src={JamesBondVideo} type='video/mp4' /> {/* Use the imported variable */}

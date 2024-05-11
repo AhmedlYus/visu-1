@@ -3,18 +3,14 @@ import '../styles/Home.css';
 import noTimeBond from '../assets/NotimeBond.jpg';
 import spectreBond from '../assets/spectreBond.jpg'; 
 import HeroSection from '../pages/HomeHero';
-import BookOnlineIcon from '@mui/icons-material/BookOnline';
 import SignupBanner from '../components/SignupBanner';
 import CardBanners from '../components/testbanners';
-import VisitCards from '../components/VisitCards';
-import AstonMartin2 from '../assets/astonMartin2.jpg';
-import MuseumMap2 from '../assets/007musem-map2.jpg';
-import Bar007 from '../assets/bollingerbar1.jpg';
 import Collections from '../components/Collections';
 import hovercraft from '../assets/bond_warwick_hover.jpg';
 import oscarStatue from '../assets/oscar_statue007.jpg';
 import watches from '../assets/omega_spectre_007museum.jpg';
 import casinoroyale2008 from '../assets/CasinoRoyale007.jpg';
+import Quantum from '../assets/Quantum.jpeg';
 
 
 
@@ -41,10 +37,19 @@ const Home = () => {
   const cards3 = [
     {
       title: "Casino Royale",
-      text: "Rent the spectacular beast",
+      text: "Rent the spectacular Aston Martin, ",
       bookNowLink: "#",
       image: casinoroyale2008,
       backgroundColor: "#002c3d",
+    },
+  ];
+  const cards4 = [
+    {
+      title: "Quantum of Solace",
+      text: "Rent the spectacular Aston Martin, ",
+      bookNowLink: "#",
+      image: Quantum,
+      backgroundColor: "#656465",
     },
   ];
   
@@ -77,15 +82,40 @@ const Home = () => {
         <div className='exhi-header'>
         <h1>Exhibitions and attractions</h1>
         </div>
-        <CardBanners cards={cards} />
-        <div style={{ margin: '20px 0' }}></div>
-        <CardBanners cards={cards2} />
-        <div style={{ margin: '20px 0' }}></div>
-        <CardBanners cards={cards3} />
-        <div style={{ margin: '20px 0' }}></div>
-        <div className='section-line'>
+        <div className="grid-container">
+        <div className="card-banner">
+            <CardBanners cards={cards} />
         </div>
-
+        <div className="text">
+            <h3>Visit the Museum</h3>
+        </div>
+    </div>
+    <div style={{ margin: '20px 0' }}></div>
+    <div className="grid-container">
+        <div className="text">
+            <h3>Visit the Museum</h3>
+        </div>
+        <div className="card-banner">
+            <CardBanners cards={cards2} />
+        </div>
+    </div>
+    <div style={{ margin: '20px 0' }}></div>
+    <div className="grid-container">
+        <div className="card-banner">
+            <CardBanners cards={cards3} />
+        </div>
+        <div className="text">
+            <h3>Visit the Museum</h3>
+        </div>
+    </div>
+    <div className="grid-container">
+        <div className="text">
+            <h3>Visit the Museum</h3>
+        </div>
+        <div className="card-banner">
+            <CardBanners cards={cards4} />
+        </div>
+    </div>
         <SignupBanner/>
         <div className='visit-header'>
         <h1>Collections</h1>

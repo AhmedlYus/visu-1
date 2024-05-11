@@ -21,9 +21,9 @@ function App() {
           <Route exact path="/" element={<Home />} />
           <Route path="/exhibitions" element={<Exhibitions />} />
           <Route path="/exhibitions/notime" element={<ExhibitionsNotime />} />
-          <Route path="/booking" element={<Booking />}/ >
+          <Route path="/booking" element={<Booking />} />
           <Route path="/booking/tickets" element={<BookingTickets />} />
-            <Route path="/booking/rental" element={<BookingRental />} />
+          <Route path="/booking/rental" element={<BookingRental />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="/about" element={<About />} />
         </Routes>
